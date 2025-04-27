@@ -1,7 +1,7 @@
 FROM ghcr.io/coder/coder:latest
 
-# COPY . /app/
+COPY . /app/
 
-# WORKDIR /app
+WORKDIR /app
 EXPOSE 8080
 # CMD ["coder server"]
