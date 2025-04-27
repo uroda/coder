@@ -4,4 +4,4 @@ COPY . /app/
 
 WORKDIR /app
 EXPOSE 8080
-CMD ["coder server"]
+# CMD ["coder server"]
