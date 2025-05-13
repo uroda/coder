@@ -3,5 +3,5 @@ FROM ghcr.io/coder/coder:latest
 COPY . /app/
 
 WORKDIR /app
-EXPOSE 7080
+EXPOSE 8080
 # CMD ["coder server"]
